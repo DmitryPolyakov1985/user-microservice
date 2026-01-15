@@ -4,7 +4,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://localhost:27017/userdb
+      uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@mern-blog.yvkaq.mongodb.net/?appName=mern-blog
       database: userdb
 
 #  datasource:
